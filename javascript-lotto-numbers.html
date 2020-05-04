@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <title>Quick Pick Mania</title>
+		<link href="css/style.css" rel="stylesheet"/>
+	</head>
+  <body>
+    <header>
+  	  <h1>$ Quick Pick Mania $</h1>
+		</header>
+		<main>
+      <section>
+        <figure>
+          <picture>
+            <img src="img/dylan-nolte-RSsqjpezn6o-unsplash_800x250px.jpg" alt="Lottery number balls flying around."/>
+          </picture>
+          <figcaption>
+            <p>Photo by Dylan Nolte on <a href="https://unsplash.com/photos/RSsqjpezn6o">Unsplash</a></p>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section>
+			  <h2>Lotto</h2>
+        <button onclick="lottoQuickPick();">Quick Pick</button>
+        <p id="lottoQuickPick"></p>
+			</section>
+
+      <section>
+			  <h2>Powerball</h2>
+        <button onclick="powerballQuickPick();">Quick Pick</button>
+        <p id="powerballQuickPick"></p>
+        <button onclick="powerballNumber();">Powerball</button>
+        <p id="message"></p>
+			</section>
+
+		</main>
+    <script src="js/lotto-test.js"></script>
+	</body>
+</html>
