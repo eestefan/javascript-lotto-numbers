@@ -30,17 +30,17 @@ h2 {
   margin-bottom: 10px;
 }
 
-#powerballQuickPick {
+#outputLotto {
   font-size: 48px;
   color: green;
 }
 
-#lottoQuickPick {
+#outputPW {
   font-size: 48px;
   color: green;
 }
 
-#message {
+#outputPWN {
   font-size: 48px;
   color: green;
 }
