@@ -13,6 +13,7 @@ function lottoQuickPick() {
     {
       sixNumbers += random[i] + " ";
     }
+    document.getElementById("outputLotto").innerHTML = sixNumbers;
 }
 
 // This is for the Powerball five numbers
@@ -34,13 +35,12 @@ function powerballQuickPick() {
 }
 
 // This is for the Powerball single Powerball number
-
 function powerballNumber () {
 	var randomNumberPB = Math.random () * 26;
 	var roundedNumberPB = Math.ceil(randomNumberPB);
 	document.getElementById("outputPWN").innerHTML = roundedNumberPB;
 }
-
+//attemps for powerballNumber
 // attempt 1 - works but seems too complicated and unnecessary
 // function powerballNumber() {
 // 	var array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27];
