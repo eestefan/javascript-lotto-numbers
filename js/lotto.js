@@ -36,5 +36,5 @@ function powerballQuickPick() {
 function powerballNumber () {
 	var randomNumber = Math.random () * 26;
 	var roundedNumber = Math.ceil(randomNumber);
-	document.getElementById("message").innerHTML = roundedNumber;
+	document.getElementById("outputPWN").innerHTML = roundedNumber;
 }
